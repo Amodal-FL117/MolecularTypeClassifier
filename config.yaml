@@ -1,0 +1,27 @@
+
+ecr:
+  region: us-east-1
+  repository: prod-fsp-developer-tools-amodal-image-repo
+  tag: template-latest
+
+docker:
+  image_name: template
+  dockerfile: Dockerfile
+
+batch:
+  api_base_url: https://fsp-api.data-platform.fsp-amodal.com
+  default_compute_platform: batch
+  default_cpu: 1
+  default_memory_mb: 1024
+  default_gpu: 1
+  default_platform: EC2
+  default_timeout: 172800
+  s3_input: s3://fsp-ml-data/batch/
+  metadata:
+    user: template-user
+    project: template-project
+
+mlflow:
+  tracking_uri: https://mlflow.data-platform.fsp-amodal.com
+  experiment_name: template
+
