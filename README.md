@@ -1,20 +1,20 @@
 # Molecular Type Classifier
-Set up instructions
+<H2><B> Set up instructions </B></H2>
 
-install pixi
-
+<B>1. install pixi</B>
+<br>
 
 curl -fsSL https://pixi.sh/install.sh | sh
+<br>
 
 
-
-then you just need to
-
+<B>2. then you just need to  </B>
+<br>
 
 pixi run python path/to/script.py
-
-
-or spin up jupyterlab
-
+<br>
+<br>
+<B>or spin up jupyterlab  </B>
+<br>
 pixi run jupyter-lab
 
