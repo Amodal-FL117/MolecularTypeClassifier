@@ -1,3 +1,20 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.tsv
+*.tsv.xz
+*.csv
+*.json
+*.pkl
+*.pt
+*.pth
+*.pkl.gz
+*.pkl.bz2
+*.pkl.xz
+*.pkl.zip
+*.pkl.tar
+*.pkl.tar.gz
+*.pkl.tar.bz2
